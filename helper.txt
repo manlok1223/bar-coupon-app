@@ -1,0 +1,14 @@
+打开项目: npx expo run:android / npx expo start
+更新最新代码: git push origin main
+拉取最新代码: git pull origin main
+查看当前分支: git branch
+创建新分支: git checkout -b feature/功能名
+查看状态: git status
+添加更改: git add . / git add <fileName>
+提交更改: git commit -m "更新信息"
+推送分支到远程仓库: git push -u origin feature/功能名   下次直接 git push
+
+合并分支到main:
+1. git switch main
+2. git pull origin main
+3. git merge feature/xxx
